@@ -72,3 +72,20 @@ npm install dotenv
 # Run both frontend and backend
 cd ..
 npm run both
+```
+## 👨‍💻 Author
+
+This project is maintained by:
+
+**Gaurav Kumar**  
+📍 [LinkedIn](https://www.linkedin.com/in/gaurav-kumar-9b5689250/)  
+💻 [GitHub]((https://github.com/Gaurav-Kumar00))  
+✉️ Email: [gk94129@gmail.com](mailto:gk94129@gmail.com)  
+
+
+---
+
+## 🧾 License
+
+© 2024–2025 **Gaurav Kumar**  
+All Rights Reserved.

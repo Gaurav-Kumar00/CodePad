@@ -18,13 +18,16 @@ function Python() {
 
         try {
             // const {data} = await axios.post("http://localhost:5000/runpy",payload)
-            const response = await fetch("http://localhost:5050/runpy", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(payload),
-            });
+            const response = await fetch(
+                "https://codepad-backend-mopq.onrender.com/runpy",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(payload),
+                }
+            );
             const data = await response.json();
             if (response.ok) {
                 toast.remove();

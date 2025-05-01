@@ -124,7 +124,7 @@ function Login() {
                                 name="username"
                                 id="username"
                                 autoComplete="off"
-                                placeholder="codofile"
+                                placeholder="username"
                                 value={username}
                                 onChange={(e) => setUsername(e.target.value)}
                                 //  value={values.username}
@@ -142,7 +142,7 @@ function Login() {
                                 name="pass"
                                 id="pass"
                                 autoComplete="off"
-                                placeholder="codofile"
+                                placeholder="password"
                                 value={password}
                                 onChange={(e) => setpassword(e.target.value)}
 

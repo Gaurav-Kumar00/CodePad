@@ -132,7 +132,7 @@ function Register() {
                                         type="text"
                                         name="username"
                                         id="username"
-                                        placeholder="codofile"
+                                        placeholder="username"
                                         value={user.username}
                                         onChange={handleChange}
                                     />
@@ -150,7 +150,7 @@ function Register() {
                                         type="text"
                                         name="email"
                                         id="email"
-                                        placeholder="CodoFile@gmail.com"
+                                        placeholder="user@gmail.com"
                                         value={user.email}
                                         onChange={handleChange}
                                     />

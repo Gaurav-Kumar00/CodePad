@@ -9,7 +9,7 @@ CodoFile is an advanced web-based code editor that allows users to write and exe
 ## ✨ Key Features
 
 1. **Multi-language Code Execution**  
-   - Supports JavaScript and Python (Dart support coming soon).  
+   - Supports JavaScript.  
    - Real-time output execution inside the browser.
 
 2. **Image to Text (OCR)**  
@@ -51,10 +51,10 @@ CodoFile is an advanced web-based code editor that allows users to write and exe
 
 ```bash
 # Clone the repository
-git clone https://github.com/faizan619/Codo-File.git
+git clone
 
 # Navigate to project root
-cd Codo-File
+cd CodePad
 
 # Install root dependencies
 npm install

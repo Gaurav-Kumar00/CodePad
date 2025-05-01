@@ -24,8 +24,6 @@ CodoFile is an advanced web-based code editor that allows users to write and exe
 5. **Feedback Collection**  
    - Feedback form available on the homepage for user input.
 
----
-
 
 ---
 

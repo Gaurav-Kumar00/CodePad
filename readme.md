@@ -6,7 +6,7 @@ CodoFile is an advanced web-based code editor that allows users to write and exe
 
 ---
 
-## ✨ ey Features
+## ✨Key Features
 
 1. **Multi-language Code Execution**
 

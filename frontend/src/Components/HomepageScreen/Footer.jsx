@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <div class="wave-container wave">
-                <p>© {year}, Developed & Designed with ❤️ by Prabha Sharma</p>
+                <p>© {year}, Developed & Designed with ❤️ by Gaurav Kumar</p>
             </div>
         </>
     );

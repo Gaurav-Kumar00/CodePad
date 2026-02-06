@@ -1,0 +1,18 @@
+# Render single-service deploy: backend serves the built frontend (SPA).
+# Build produces frontend/build; backend serves it and falls back to index.html for routes like /editor/javascript.
+
+services:
+  - type: web
+    name: codepad
+    env: node
+    buildCommand: |
+      npm install
+      cd frontend && npm install && npm run build
+      cd ../backend && npm install
+    startCommand: cd backend && node app.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        generateValue: true
+      # Add DB, SECRET_KEY, etc. in Render Dashboard → Environment

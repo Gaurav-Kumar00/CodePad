@@ -11,10 +11,7 @@ const { generateDartfile } = require("./generateDart");
 require("../db/conn");
 const User = require("../model/userSchema");
 
-router.get("/", (req, res) => {
-    res.send("Welcome to the Home page from auth.js");
-    console.log(`User at URL : localhost:${PORT}${req.url}`);
-});
+// GET / removed so root can serve the frontend (SPA) in production
 
 //################ python compiler code here ##################
 router.use(express.urlencoded({ extended: true }));
